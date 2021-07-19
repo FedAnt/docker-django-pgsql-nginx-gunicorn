@@ -1,2 +1,5 @@
 # docker-django-pgsql-nginx-gunicorn
-Docker:  django with upload, postgresql, nginx, gunicorn
+This is the template setup docker code for: 
+- django with function upload and gunicorn
+- postgresql
+- nginx
