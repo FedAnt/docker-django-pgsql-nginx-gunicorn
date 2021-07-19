@@ -9,4 +9,6 @@ docker-compose -f docker-compose.prod.yml up -d --build
 docker-compose -f docker-compose.prod.yml exec web python manage.py migrate --noinput
 
 # Stop
-docker-compose -f docker-compose.prod.yml down -v
+docker-compose -f docker-compose.prod.yml down
+ or with delete volumes
+docker-compose -f docker-compose.prod.yml down -v 
